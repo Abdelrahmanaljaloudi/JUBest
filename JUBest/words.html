@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> JUBest</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="University Of Jordan" name="keywords">
+    <meta content="University Of Jordan" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-light position-relative shadow">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
+            <a href="" class="navbar-brand font-weight-bold text-secondary" style="font-size: 50px;">
+                <img src="img/Logo of the Language Center at the University of Jordan.png "
+                    style="width:70px; padding: 10px 10px;" alt="logo">
+
+                <span class="text-primary">JUBest</span>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-lg-end" id="navbarCollapse">
+                <div class="navbar-nav font-weight-bold  py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+
+                    <a href="levels.html" class="nav-item nav-link">Levels</a>
+
+                    <div class="nav-item dropdown">
+                        <a id="translate" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">language</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="#" class="dropdown-item">عربي</a>
+                            <a href="#" class="dropdown-item">English</a>
+                        </div>
+                    </div>
+
+                </div>
+                <a href="index.html" class="btn btn-primary px-4">Sign out</a>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary mb-5">
+        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
+            <h3 class="display-3 font-weight-bold text-white">Words</h3>
+            <div class="d-inline-flex text-white">
+                <p class="m-0"><a class="text-white" href="levels.html">Levels</a></p>
+                <p class="m-0 px-2">/</p>
+                <p class="m-0"><a class="text-white" href="Beginner.html">Beginner</a></p>
+                <p class="m-0 px-2">/</p>
+                <p class="m-0"><a class="text-white" href="words.html">Words</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+    <!-- Words Start  -->
+    <div class="container ">
+        <div class="row pt-5">
+            <div class="col-8">
+
+                <h1 class="mb-5"> The most common Arabic words</h1>
+
+
+            </div>
+            <div class="mb-5">
+
+
+                <h4 class="mb-4" style=" padding-top: 10px;">Personal Pronouns</h4>
+                <p>To start composing basic sentences in Arabic, you’ll probably need to master personal pronouns.
+                    Here’s a list of the most essential personal pronouns in Arabic.</p>
+                <div class="table-responsive " style=" display: block !important;
+overflow-x: auto !important;
+width: 100% !important;">
+                    <table class="table table-hover text-center  ">
+                        <thead>
+                            <tr>
+
+                                <th scope="col">Arabic Words</th>
+                                <th scope="col">Romanizations</th>
+                                <th scope="col">English Translations</th>
+
+                                <th scope="col">Pronunciation of words </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <td>أنَا</td>
+                            <td>ʾanā</td>
+                            <td>I</td>
+                            <td><button class="btn  btn-outline-info " style=" font-size:5px ;" onclick="soundana()"
+                                    id="ana">
+                                    <img class="img-responsive w-25"
+                                        src="https://img.icons8.com/arcade/64/null/room-sound.png" />
+
+                                </button></td>
+                            </tr>
+                            <tr>
+                                <td>أَنتَ</td>
+                                <td>ʾanta</td>
+                                <td>you</td>
+                                <td><button class="btn  btn-outline-info " style=" font-size:5px ;" onclick="soundant()"
+                                        id="ant">
+                                        <img class="img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" />
+
+                                    </button></td>
+                            </tr>
+                            <tr>
+                                <td>أَنتَ</td>
+                                <td>ʾanti</td>
+                                <td>أَنتِ</td>
+                                <td><button class="btn  btn-outline-info " style=" font-size:5px ;" onclick="soundant2()"
+                                        id="anta2">
+                                        <img class="img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" />
+
+                                    </button></td>
+                            </tr>
+                            <tr>
+                                <td>هُوَ</td>
+                                <td>huwa</td>
+                                <td>he</td>
+                                <td><button class="btn  btn-outline-info " style=" font-size:5px ;" onclick="soundanthuwa()"
+                                        id="huwa">
+                                        <img class="img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" />
+
+                                    </button></td>
+                            </tr>
+                            <tr>
+                                <td>هِيَ</td>
+                                <td>hiya</td>
+                                <td>she</td>
+                                <td><button class="btn  btn-outline-info " style=" font-size:5px ;" onclick="soundanthey()"
+                                        id="hey">
+                                        <img class="img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" />
+
+                                    </button></td>
+                            </tr>
+                            <tr>
+                                <td>هُوَ/هِيَ</td>
+                                <td>huwa / hiya</td>
+
+                                <td>it</td>
+                                <td><button class="btn  btn-outline-info " style=" font-size:5px ;" onclick="soundanthwahey()"
+                                        id="hawhey">
+                                        <img class="img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" />
+
+                                    </button></td>
+                            </tr>
+                            <tr>
+                                <td>نَحنُ</td>
+                                <td>naḥnu</td>
+                                <td>we</td>
+                                <td><button class="btn  btn-outline-info " style=" font-size:5px ;" onclick="soundantnahn()"
+                                        id="nahn">
+                                        <img class="img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" />
+
+                                    </button></td>
+                            </tr>
+                            <tr>
+                                <td>هُم</td>
+                                <td>hum</td>
+                                <td>they</td>
+                                <td><button class="btn  btn-outline-info " style=" font-size:5px ;" onclick="soundhowm()"
+                                        id="howm">
+                                        <img class="img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" />
+
+                                    </button></td>
+                            </tr>
+                            <tr>
+                                <td>-ه</td>
+                                <td>-h</td>
+                                <td>him</td>
+                                <td><button class="btn  btn-outline-info " style=" font-size:5px ;" onclick="soundha1()"
+                                        id="ha1">
+                                        <img class="img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" />
+
+                                    </button></td>
+                            </tr>
+                            <tr>
+                                <td>-ها</td>
+                                <td>-hā</td>
+                                <td>her</td>
+                                <td><button class="btn  btn-outline-info " style=" font-size:5px ;" onclick="soundhaaa()"
+                                        id="haaa">
+                                        <img class="img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" />
+
+                                    </button></td>
+                            </tr>
+                            <tr>
+                                <td>-نا</td>
+                                <td>-nā</td>
+                                <td>us</td>
+                                <td><button class="btn  btn-outline-info " style=" font-size:5px ;" onclick="soundna()"
+                                        id="na">
+                                        <img class=" img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" />
+
+                                    </button></td>
+                            </tr>
+                            <tr>
+                                <td>-هم</td>
+                                <td>-hum</td>
+                                <td>them</td>
+                                <td><button class="btn  btn-outline-info " style=" font-size:5px ;" onclick="soundhom()"
+                                        id="hom">
+                                        <img class="img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" />
+
+                                    </button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3 class="mb-4" style=" padding-top: 10px;">Demonstrative Pronouns</h3>
+
+                <p>Demonstrative pronouns are the tools you use to refer to objects and people in your conversations.
+                    Learning these will be of great use for your interactions. Here’s a list of the four demonstrative
+                    pronouns:</p>
+
+                <div class="flex flex-col">
+                    <table class=" table table-hover text-center">
+                        <thead>
+                            <tr>
+                                <th scope="col">Arabic Words</th>
+                                <th scope="col">Romanizations</th>
+                                <th scope="col">English Translations</th>
+                                <th scope="col">Pronunciation of words </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>هَذِهِ / هَذا</td>
+                                <td>haḏihi / haḏā</td>
+                                <td>this</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;" onclick="soundthis()"><img
+                                            class="img-responsive  w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ذاكَ / ذَلِك</td>
+                                <td>dāka / ḏalik</td>
+                                <td>that</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;" onclick="soundthat()"><img
+                                            class="img-responsive  w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>هَؤُلاء / هَذِهِ</td>
+                                <td>haʾulāʾ/ haḏihi</td>
+                                <td>these</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundthese()"><img
+                                            class="img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>أولَئِك / تِلك</td>
+                                <td>hʾūlaʾik / tilk</td>
+                                <td>those</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundthose()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <h3 class="mb-4" style=" padding-top: 10px;">Interrogative Pronouns / Question Words</h3>
+
+                <p>Interrogative pronouns are building blocks for questions, a.k.a. the Five Ws. Here’s a list of those
+                    with romanizations:</p>
+
+                <div class="flex flex-col">
+                    <table class=" table table-hover text-center">
+                        <thead>
+                            <tr>
+                                <th scope="col">Arabic Words</th>
+                                <th scope="col">Romanizations</th>
+                                <th scope="col">English Translations</th>
+                                <th scope="col">Pronunciation of words </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>مَن</td>
+                                <td>man</td>
+                                <td>who</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;" onclick="soundmn()" ><img
+                                            class="img-responsive  w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>مَن</td>
+                                <td>man</td>
+                                <td>whom</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;" onclick="soundmn()"><img
+                                            class="img-responsive  w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>هَؤُلاء / هَذِهِ</td>
+                                <td>haʾulāʾ/ haḏihi</td>
+                                <td>these</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundthese()"><img
+                                            class="img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>لِمَن</td>
+                                <td>liman</td>
+                                <td>whose</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundwhose()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ماذا</td>
+                                <td>māḏā</td>
+                                <td>what</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundwhat()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>أَيّ</td>
+                                <td>ayy</td>
+                                <td>which</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundwhich()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>مَتى</td>
+                                <td>matā</td>
+                                <td>when</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundwhen()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>أَيْنَ</td>
+                                <td>ʾayna</td>
+                                <td>where</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundwhere()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>لِماذا</td>
+                                <td>limāḏā</td>
+                                <td>why</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundwhy()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>كَيْفَ</td>
+                                <td>kayfa</td>
+                                <td>how</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundhow()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <h3 class="mb-4" style="padding-bottom: 20px; padding-top: 10px;">Numbers</h3>
+
+
+
+                <div class="flex flex-col">
+                    <table class=" table table-hover text-center">
+                        <thead>
+                            <tr>
+                                <th scope="col">Arabic Words</th>
+                                <th scope="col">Romanizations</th>
+                                <th scope="col">English Translations</th>
+                                <th scope="col">Pronunciation of words </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>صِفر</td>
+                                <td>ṣifr</td>
+                                <td>zero</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="sound00()"><img
+                                            class="img-responsive  w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>وَاحِد</td>
+                                <td>waḥid</td>
+                                <td>one</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="sound01()"><img
+                                            class="img-responsive  w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>إثنان</td>
+                                <td>ʾiṯnān</td>
+                                <td>two</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="sound02()"><img
+                                            class="img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>ثلَاثَة</td>
+                                <td>ṯalāṯah</td>
+                                <td>three</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="sound03()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>أَربَعَة</td>
+                                <td>ʾarbaʿah</td>
+                                <td>four</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="sound04()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>خَمسَة</td>
+                                <td>ḫamsah</td>
+                                <td>five</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="sound05()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>سِتَّة</td>
+                                <td>sittah</td>
+                                <td>six</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="sound06()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>سَبعَة</td>
+                                <td>sabʿah</td>
+                                <td>seven</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="sound07()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ثَمانِيَة</td>
+                                <td>ṯamāniyah</td>
+                                <td>eight</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="sound08()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>تِسعَة</td>
+                                <td>tisʿah</td>
+                                <td>nine</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="sound09()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>عَشَرَة</td>
+                                <td>ʿašarah</td>
+                                <td>ten</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="sound010()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+                <h3 class="mb-4" style=" padding-top: 10px;">Nouns: Time</h3>
+
+                <p>Nouns are probably the first basic Arabic vocabulary words you start learning as a beginner. They’re
+                    one of two key components in a sentence (together with verbs) and you can usually get your point
+                    across using just the right noun. With that in mind, let’s look at a few beginner-level Arabic
+                    nouns.</p>
+
+                <div class="flex flex-col">
+                    <table class=" table table-hover text-center">
+                        <thead>
+                            <tr>
+                                <th scope="col">Arabic Words</th>
+                                <th scope="col">Romanizations</th>
+                                <th scope="col">English Translations</th>
+                                <th scope="col">Pronunciation of words </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ساعَة </td>
+                                <td>sāʿah</td>
+                                <td>hour</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundhour()"><img
+                                            class="img-responsive  w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>دَقيقَة</td>
+                                <td>daqīqah</td>
+                                <td>minute</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundminute()"><img
+                                            class="img-responsive  w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>صَباح</td>
+                                <td>ṣabāḥ</td>
+                                <td>morning</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundmorning()"><img
+                                            class="img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>بَعد الظُهر</td>
+                                <td>baʿd al-ẓuhr</td>
+                                <td>afternoon</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundafternoon()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>مَساء</td>
+                                <td>masāʾ</td>
+                                <td>evening</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundevening()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>يَوْم</td>
+                                <td>yawm</td>
+                                <td>day</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundday()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>شَهر</td>
+                                <td>šahr</td>
+                                <td>month</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundmonth()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>سَنَة</td>
+                                <td>sanah</td>
+                                <td>year</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundyear()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>الإثنَيْن</td>
+                                <td>al-ʾiṯnayn</td>
+                                <td>Monday</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundMonday()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>الثُلاثاء</td>
+                                <td>al-ṯulāṯāʾ</td>
+                                <td>Tuesday</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundTuesday()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>الأَربَعاء</td>
+                                <td>al-ʾarbaʿāʾ</td>
+                                <td>Wednesday</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundWednesday()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>الخَميس</td>
+                                <td>al-ḫamīs</td>
+                                <td>Thursday</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundThursday()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>الجُمعَة</td>
+                                <td>al-ǧumʿah</td>
+                                <td>Friday</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundFriday()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>السَبت</td>
+                                <td>al-sabt</td>
+                                <td>Saturday</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundSaturday()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>الأَحَد</td>
+                                <td>al-ʾaḥad</td>
+                                <td>Sunday</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundSunday()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+                <h3 class="mb-4" style=" padding-top: 10px;">Nouns: Places</h3>
+
+                <p>Nouns are probably the first basic Arabic vocabulary words you start learning as a beginner. They’re
+                    one of two key components in a sentence (together with verbs) and you can usually get your point
+                    across using just the right noun. With that in mind, let’s look at a few beginner-level Arabic
+                    nouns.</p>
+
+                <div class="flex flex-col">
+                    <table class=" table table-hover text-center">
+                        <thead>
+                            <tr>
+                                <th scope="col">Arabic Words</th>
+                                <th scope="col">Romanizations</th>
+                                <th scope="col">English Translations</th>
+                                <th scope="col">Pronunciation of words </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>مُستَشفى</td>
+                                <td>mustašfā</td>
+                                <td>hospital</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundhospital()"><img
+                                            class="img-responsive  w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>سوبَر ماركِت</td>
+                                <td>sūbar mārkit</td>
+                                <td>supermarket</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundsupermarket()"><img
+                                            class="img-responsive  w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>مَدرَسَة</td>
+                                <td>madrasah</td>
+                                <td>school</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundschool()"><img
+                                            class="img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>وَسَط المَدينَة</td>
+                                <td>wasaṭ al-madīnah</td>
+                                <td>downtown</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="sounddowntown()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>جامِعَة</td>
+                                <td>ǧāmiʿah</td>
+                                <td>university</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="sounduniversity()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>البَنك</td>
+                                <td>al-bank</td>
+                                <td>bank</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundbank()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>المَتحَف</td>
+                                <td>al-matḥaf</td>
+                                <td>museum</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundmuseum()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>المَطعَم</td>
+                                <td>al-maṭʿam</td>
+                                <td>restaurant</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundrestaurant()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>المَقهى</td>
+                                <td>al-maqhā</td>
+                                <td>café</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundcafe()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>مَركَز الشُرطَة</td>
+                                <td>markazu l-šurṭah</td>
+                                <td>police station</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundpolice()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>مَحَطَّةُ الحافِلات</td>
+                                <td>maḥaṭṭaẗu l-ḥāfilāt</td>
+                                <td>bus station</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundbus()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                           
+
+                        </tbody>
+                    </table>
+                </div>
+                <h3 class="mb-4" style=" padding-top: 10px;">Nouns: School/Office Essentials</h3>
+
+                <p>Nouns are probably the first basic Arabic vocabulary words you start learning as a beginner. They’re
+                    one of two key components in a sentence (together with verbs) and you can usually get your point
+                    across using just the right noun. With that in mind, let’s look at a few beginner-level Arabic
+                    nouns.</p>
+
+                <div class="flex flex-col">
+                    <table class=" table table-hover text-center">
+                        <thead>
+                            <tr>
+                                <th scope="col">Arabic Words</th>
+                                <th scope="col">Romanizations</th>
+                                <th scope="col">English Translations</th>
+                                <th scope="col">Pronunciation of words </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>قَلَم</td>
+                                <td>qalam</td>
+                                <td>pen</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundpen()"><img
+                                            class="img-responsive  w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>دَفتَر مُلاحَظات</td>
+                                <td>daftar mulāḥaẓāt</td>
+                                <td>notebook</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundnotebook()"><img
+                                            class="img-responsive  w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>مَقلَمَة</td>
+                                <td>maqlamah</td>
+                                <td>pencil case</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundpencil()"><img
+                                            class="img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>سمّاعات</td>
+                                <td>sammāʿāt</td>
+                                <td>headphones</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundheadphones()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>حَقيبَةُ ظَهر</td>
+                                <td>ḥaqībaẗu ẓahr</td>
+                                <td>backpack</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundbackpack()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                           
+
+                        </tbody>
+                    </table>
+                </div>
+                
+                <h3 class="mb-4" style=" padding-top: 10px;">Verbs: Daily Routine Verbs</h3>
+
+                <p>Our next set of Arabic beginner words covers the most essential verbs in a variety of categories. You can use these to form more complete sentences in Arabic..</p>
+
+                <div class="flex flex-col">
+                    <table class=" table table-hover text-center">
+                        <thead>
+                            <tr>
+                                <th scope="col">Arabic Words</th>
+                                <th scope="col">Romanizations</th>
+                                <th scope="col">English Translations</th>
+                                <th scope="col">Pronunciation of words </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>أَكَلَ</td>
+                                <td>ʾakala</td>
+                                <td>to eat</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundeat()"><img
+                                            class="img-responsive  w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>دَرَسَ</td>
+                                <td>darasa</td>
+                                <td>to study</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundstudy()"><img
+                                            class="img-responsive  w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>نامَ</td>
+                                <td>nāma</td>
+                                <td>to sleep</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundsleep()"><img
+                                            class="img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>اِستَيْقَظَ</td>
+                                <td>istayqaẓa</td>
+                                <td>to wake up</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundwake()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>ذَهَبَ</td>
+                                <td>ḏahaba</td>
+                                <td>to go</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundgo()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>أَعطى</td>
+                                <td>ʾaʿṭā</td>
+                                <td>to give</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundgive()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>مَشى</td>
+                                <td>mašā</td>
+                                <td>to walk</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundwalk()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>اِلتَقى</td>
+                                <td>iltaqā</td>
+                                <td>to meet</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundmeet()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>أَنهى</td>
+                                <td>ʾanhā</td>
+                                <td>to finish</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundfinish()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>صَنَعَ</td>
+                                <td>ṣanaʿa</td>
+                                <td>to create</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundcreate()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                           
+
+                        </tbody>
+                    </table>
+                </div>
+                <h3 class="mb-4" style=" padding-top: 10px;">Adjectives: Describing Objects</h3>
+
+                <p>Learning Arabic words to describe the world around you can liven up your conversations, strengthen your Arabic writing, and allow you to better express yourself in this rather expressive language.</p>
+
+                <div class="flex flex-col">
+                    <table class=" table table-hover text-center">
+                        <thead>
+                            <tr>
+                                <th scope="col">Arabic Words</th>
+                                <th scope="col">Romanizations</th>
+                                <th scope="col">English Translations</th>
+                                <th scope="col">Pronunciation of words </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>كَبير</td>
+                                <td>kabīr</td>
+                                <td>big</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundbig()"><img
+                                            class="img-responsive  w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>صَغير</td>
+                                <td>ṣaġīr</td>
+                                <td>small</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundsmall()"><img
+                                            class="img-responsive  w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>طَوِيل</td>
+                                <td>ṭawil</td>
+                                <td>long</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundlong()"><img
+                                            class="img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>قَصير</td>
+                                <td>qaṣīr</td>
+                                <td>short</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundshort()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>ناعِم</td>
+                                <td>nāʿim</td>
+                                <td>smooth</td>
+                                
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundsmooth()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>خَشِن</td>
+                                <td>ḫašin</td>
+                                <td>rough</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundrough()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                           
+
+                           
+
+                        </tbody>
+                    </table>
+                </div>
+                <h3 class="mb-4" style=" padding-top: 10px;">Adjectives: Describing People & Emotions</h3>
+
+                <p>Learning Arabic words to describe the world around you can liven up your conversations, strengthen your Arabic writing, and allow you to better express yourself in this rather expressive language.</p>
+
+                <div class="flex flex-col">
+                    <table class=" table table-hover text-center">
+                        <thead>
+                            <tr>
+                                <th scope="col">Arabic Words</th>
+                                <th scope="col">Romanizations</th>
+                                <th scope="col">English Translations</th>
+                                <th scope="col">Pronunciation of words </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>جَميل</td>
+                                <td>ǧamīl</td>
+                                <td>pretty</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundpretty()"><img
+                                            class="img-responsive  w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>مُضحِك</td>
+                                <td>muḍḥik</td>
+                                <td>funny</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundfunny()"><img
+                                            class="img-responsive  w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>رائِع</td>
+                                <td>rāʾiʿ</td>
+                                <td>lovely</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundlovely()"><img
+                                            class="img-responsive w-25"
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>مُتَوَاضِع</td>
+                                <td>mutawaḍiʿ</td>
+                                <td>humble</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundhumble()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>شُجاع</td>
+                                <td>šuǧāʿ</td>
+                                <td>courageous</td>
+                                
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundcourageous()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>سَعيد</td>
+                                <td>saʿīd</td>
+                                <td>happy</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundhappy()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>حَزين</td>
+                                <td>ḥazīn</td>
+                                <td>sad</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundsad()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>قَلِق</td>
+                                <td>qaliq</td>
+                                <td>anxious</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundanxious()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>مُتَوَتِّر</td>
+                                <td>mutawattir</td>
+                                <td>stressed out</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundstressed()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>مَرِح</td>
+                                <td>mariḥ</td>
+                                <td>jolly</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundjolly()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>غَريب</td>
+                                <td>ġarīb</td>
+                                <td>weird</td>
+                                <td><button class="btn btn-outline-info" style=" font-size:5px ;"onclick="soundweird()"><img
+                                            class="img-responsive w-25 "
+                                            src="https://img.icons8.com/arcade/64/null/room-sound.png" alt=""></button>
+                                </td>
+                            </tr>
+                           
+
+                           
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+
+
+    </div>
+    <!-- Words End -->
+
+
+
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="row pt-5 justify-content-between">
+            <div class="col-lg-4 col-md-6 mb-5 ">
+                <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0"
+                    style="font-size: 40px; line-height: 40px;">
+                    <img src="img/Logo of the Language Center at the University of Jordan.png "
+                        style="width:60px; padding: 5px 5px;" alt="logo">
+                    <span class="text-white">JUBest</span>
+                </a>
+                <p>In the event of any problem or observation, you can contact us through the university accounts on
+                    social networking sites.</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 mb-5 ">
+                <h3 class="text-primary mb-4">Get In Touch</h3>
+                <div class="d-flex">
+                    <h4 class="fa fa-map-marker-alt text-primary"></h4>
+                    <div class="pl-3">
+                        <h5 class="text-white">Address</h5>
+                        <p>Amman</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <h4 class="fa fa-envelope text-primary"></h4>
+                    <div class="pl-3">
+                        <h5 class="text-white">Email</h5>
+                        <p>Abdelrahmanaljaloudi@gmail.com</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <h4 class="fa fa-phone-alt text-primary"></h4>
+                    <div class="pl-3">
+                        <h5 class="text-white">Phone</h5>
+                        <p>+962798628234</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="container-fluid pt-5" style="border-top: 1px solid rgba(23, 162, 184, .2);;">
+            <p class="m-0 text-center text-white">
+                &copy; <a class="text-primary font-weight-bold" href="#">JUBest</a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary p-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
